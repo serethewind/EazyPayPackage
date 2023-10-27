@@ -1,0 +1,92 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: "loans"
+  profiles:
+    active:
+     - "qa"
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#  datasource:
+##    url: jdbc:mysql://localhost:3308/loansdb
+#    url: jdbc:mysql://localhost:3306/loansdb
+#    username: root
+##    password: root
+#    password: redDEVILS1.
+#  jpa:
+#    show-sql: true
+#  sql:
+#    init:
+#      mode: always
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+#  rabbitmq:
+#    host: "localhost"
+#    port: 5672
+#    username: "guest"
+#    password: "guest"
+
+#actuator related configurations
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    readinessstate:
+      enabled: true
+    livenessstate:
+      enabled: true
+  endpoint:
+    shutdown:
+      enabled: true
+    health:
+      probes:
+        enabled: true
+  info:
+    env:
+      enabled: true
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
+endpoints:
+  shutdown:
+    enabled: true
+
+# Eureka related configurations
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+
+# The info that is displayed in the eureka dashboard
+info:
+  app:
+    name: "loans"
+    description: "Eazy Pay Loans Microservice"
+    version: "1.0.0"
+
+logging:
+  level:
+    com:
+      eazypay:
+        loans: DEBUG
+  pattern:
+    level: "%5p [${spring.application.name},%X{trace_id},%X{span_id}]"

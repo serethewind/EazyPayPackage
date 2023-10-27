@@ -1,0 +1,17 @@
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\constants\LoansConstants.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\controller\LoansController.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\dto\ErrorResponseDto.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\entity\BaseEntity.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\mapper\LoansMapper.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\exception\GlobalExceptionHandler.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\dto\LoansInfoDto.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\entity\Loans.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\service\impl\LoansServiceImpl.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\audit\AuditAwareImpl.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\exception\LoanAlreadyExistsException.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\repository\LoansRepository.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\exception\ResourceNotFoundException.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\dto\LoansDto.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\service\ILoansService.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\LoansApplication.java
+C:\Users\Noah Johnson\Documents\intellij\EazyPay Package\EazyPay-version12\loans\src\main\java\com\eazypay\loans\dto\ResponseDto.java

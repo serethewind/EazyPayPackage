@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to EazyBank cards default environment related local APIs "
+  contactDetails:
+    name: "Noah John - Developer in default env mode"
+    email: "noah@eazybank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
